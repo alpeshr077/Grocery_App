@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Grocery_App</string>
+
+    <style name="email_id">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#1A1A1A</item>
+    </style>
+
 </resources>
