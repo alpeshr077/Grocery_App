@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".Login_Page_1">
+    tools:context=".login_page_2">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/white"
+        android:gravity="left|center">
+
+        <ImageView
+            android:id="@+id/Back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/_10sdp"
-        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_24sdp"
         android:fontFamily="@font/sf_pro_display_mediu_"
         android:text="Welcome Back!"
         android:textColor="@color/black"
@@ -61,7 +76,7 @@
                     android:fontFamily="@font/sf_pro_display_mediu_"
                     android:gravity="center_vertical"
                     android:hint="Enter email address"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"/>
 
             </FrameLayout>
 
@@ -84,11 +99,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_44sdp"
                     android:layout_marginLeft="@dimen/_38sdp"
-                    android:backgroundTint="@color/white"
                     android:fontFamily="@font/sf_pro_display_mediu_"
                     android:gravity="center_vertical"
                     android:hint="Enter password"
-                    android:inputType="textAutoComplete" />
+                    android:inputType="textAutoComplete"
+                    android:backgroundTint="@color/white"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -118,12 +133,12 @@
                     android:layout_gravity="right|center"
                     android:fontFamily="@font/sf_pro_display_mediu_"
                     android:text="Forgot password?"
-                    android:textColor="@color/black" />
+                    android:textColor="#FF6E01" />
 
             </FrameLayout>
 
             <TextView
-                android:id="@+id/LogIn"
+                android:id="@+id/LogIn2"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_44sdp"
                 android:layout_marginTop="@dimen/_30sdp"
@@ -144,27 +159,27 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_1sdp"
                     android:layout_gravity="center|bottom"
-                    android:layout_marginBottom="@dimen/_3sdp"
-                    android:background="@color/black" />
+                    android:background="@color/black"
+                    android:layout_marginBottom="@dimen/_3sdp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
                     android:layout_marginTop="@dimen/_6sdp"
-                    android:background="@color/white"
-                    android:gravity="center"
                     android:text="Or continue with"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/white"/>
 
             </FrameLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_80sdp"
-                android:layout_marginTop="@dimen/_8sdp"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_8sdp">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="@dimen/_40sdp"
@@ -215,24 +230,24 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="horizontal"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_marginTop="@dimen/_8sdp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:text="Don't have an account? "
-                    android:textSize="@dimen/_12sdp" />
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Register Now"
-                    android:textColor="#FF6E01"
                     android:textSize="@dimen/_14sdp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="#FF6E01"/>
 
             </LinearLayout>
 

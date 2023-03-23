@@ -12,6 +12,21 @@
         android:theme="@style/Theme.Grocery_App"
         tools:targetApi="31">
         <activity
+            android:name=".Product_Page_1"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Page_2"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Page_1"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Page_3"
+            android:exported="false" />
+        <activity
+            android:name=".login_page_2"
+            android:exported="false" />
+        <activity
             android:name=".Login_Page_1"
             android:exported="false" />
         <activity

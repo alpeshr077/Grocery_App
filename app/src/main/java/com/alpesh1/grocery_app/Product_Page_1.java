@@ -6,27 +6,25 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.ImageView;
 
-public class Login_Page_1 extends AppCompatActivity {
+public class Product_Page_1 extends AppCompatActivity {
 
-    TextView LogIn;
+    ImageView BackOrders;
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page1);
+        setContentView(R.layout.activity_product_page1);
 
-        LogIn = findViewById(R.id.LogIn);
+        BackOrders = findViewById(R.id.BackOrders);
 
-        LogIn.setOnClickListener(new View.OnClickListener() {
+        BackOrders.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Login_Page_1.this,login_page_2.class);
-                finish();
+                Intent intent = new Intent(Product_Page_1.this,Register_Page_2.class);
                 startActivity(intent);
-                
             }
         });
     }
