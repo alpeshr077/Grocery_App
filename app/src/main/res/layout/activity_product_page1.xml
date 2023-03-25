@@ -29,113 +29,267 @@
             android:textSize="@dimen/_18sdp"
             android:textStyle="bold" />
 
-
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_100sdp"
-        android:layout_marginLeft="@dimen/_10sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginRight="@dimen/_10sdp"
-        android:background="@drawable/login_page_design_1">
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="@dimen/_50sdp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="@dimen/_70sdp"
-                android:layout_height="@dimen/_70sdp"
-                android:layout_marginLeft="@dimen/_22sdp"
-                android:src="@drawable/image_chocolate" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_weight="6"
             android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_18sdp"
-                android:fontFamily="@font/sf_pro_display_mediu_"
-                android:text="Ferrero Rocher Chocolates "
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_14sdp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_18sdp"
-                android:text="1 Pcs"
-                android:textSize="@dimen/_12sdp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/login_page_design_1">
 
                 <LinearLayout
-                    android:layout_width="@dimen/_100sdp"
-                    android:layout_height="@dimen/_38sdp"
-                    android:layout_marginLeft="@dimen/_18sdp"
-                    android:layout_marginTop="@dimen/_6sdp"
-                    android:background="@drawable/chocalate_button_design"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="-"
-                        android:textColor="#FF6E01"
-                        android:textSize="@dimen/_22sdp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="01"
-                        android:textColor="#FF6E01"
-                        android:textSize="@dimen/_18sdp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="+"
-                        android:textColor="#FF6E01"
-                        android:textSize="@dimen/_22sdp" />
+                    <ImageView
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_marginLeft="@dimen/_22sdp"
+                        android:src="@drawable/image_chocolate" />
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_weight="6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_18sdp"
+                        android:fontFamily="@font/sf_pro_display_mediu_"
+                        android:text="Ferrero Rocher Chocolates "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_18sdp"
+                        android:text="1 Pcs"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_38sdp"
+                            android:layout_marginLeft="@dimen/_18sdp"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            android:background="@drawable/chocalate_button_design"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="-"
+                                android:textColor="#FF6E01"
+                                android:textSize="@dimen/_22sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="01"
+                                android:textColor="#FF6E01"
+                                android:textSize="@dimen/_18sdp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="+"
+                                android:textColor="#FF6E01"
+                                android:textSize="@dimen/_22sdp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="@dimen/_14sdp"
+                            android:gravity="center|right"
+                            android:text="Rs.550"
+                            android:textColor="#FF6E01"
+                            android:textSize="@dimen/_18sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/login_page_design_1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_14sdp"
+                    android:fontFamily="@font/sf_pro_display_mediu_"
+                    android:gravity="center|left"
+                    android:text="Eligible for cancellation"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Rs.550"
-                    android:gravity="center|right"
-                    android:textSize="@dimen/_18sdp"
                     android:layout_marginRight="@dimen/_14sdp"
-                    android:textStyle="bold"
-                    android:textColor="#FF6E01"/>
+                    android:fontFamily="@font/sf_pro_display_mediu_"
+                    android:gravity="right|center"
+                    android:text="View Policy"
+                    android:textColor="#FF6E01"
+                    android:textSize="@dimen/_14sdp" />
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/login_page_design_1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_14sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Reason for cancellation"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_18sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:text="Please tell us correct reason for cancellation. This
+information is only used to improve our service"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:background="@color/black" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_14sdp"
+                        android:text="Select Reason*"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_18sdp"
+                        android:textStyle="bold" />
+
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Incorrect size ordered"
+                            android:textSize="@dimen/_12sdp"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Product not required anymore"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cash Issue"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ordered By Mistake"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Wants to change style/color"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Delayed Delivery Cancellation"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Duplicate Order"
+                            android:textSize="@dimen/_12sdp" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_44sdp"
+                android:background="@drawable/login_button_design"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:text="Cancel"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
         </LinearLayout>
 
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

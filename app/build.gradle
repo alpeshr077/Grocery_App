@@ -52,4 +52,7 @@ dependencies {
 
     implementation 'io.github.ketzalv:validationedittext:1.0.8'
 
+//    ImageCircle
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }
