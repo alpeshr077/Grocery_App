@@ -232,6 +232,7 @@
                         android:gravity="center">
 
                         <ImageView
+                            android:id="@+id/Home"
                             android:layout_width="@dimen/_24sdp"
                             android:layout_height="@dimen/_24sdp"
                             android:layout_weight="1"

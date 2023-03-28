@@ -536,6 +536,7 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/Go_To_2"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_44sdp"
                 android:background="@drawable/login_button_design"

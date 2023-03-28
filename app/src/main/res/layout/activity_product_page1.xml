@@ -277,6 +277,7 @@ information is only used to improve our service"
             </LinearLayout>
 
             <TextView
+                android:id="@+id/Cancel"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_44sdp"
                 android:background="@drawable/login_button_design"

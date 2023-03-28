@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Grocery_App"
         tools:targetApi="31">
         <activity
+            android:name=".Home_page"
+            android:exported="false" />
+        <activity
             android:name=".Profile_2"
             android:exported="false" />
         <activity
