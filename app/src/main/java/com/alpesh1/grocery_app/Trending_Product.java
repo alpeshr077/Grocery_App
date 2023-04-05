@@ -7,36 +7,36 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 
-public class Profile extends AppCompatActivity {
+public class Trending_Product extends AppCompatActivity {
 
-    TextView Edit;
+    ImageView backarrow;
 
-    ImageView BackOrders;
+    LinearLayout chocksend;
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_trending_product);
 
-        Edit = findViewById(R.id.Edit);
+        backarrow = findViewById(R.id.backarrow);
 
-        BackOrders = findViewById(R.id.BackOrders);
+        chocksend = findViewById(R.id.chocksend);
 
-        Edit.setOnClickListener(new View.OnClickListener() {
+        backarrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Profile.this,Profile_2.class);
+                Intent intent = new Intent(Trending_Product.this,Home_page.class);
                 startActivity(intent);
             }
         });
 
-        BackOrders.setOnClickListener(new View.OnClickListener() {
+        chocksend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Profile.this,Home_page.class);
+                Intent intent = new Intent(Trending_Product.this,Details.class);
                 startActivity(intent);
             }
         });
